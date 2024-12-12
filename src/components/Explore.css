@@ -1,0 +1,25 @@
+.explore {
+    padding: 20px;
+  }
+  
+  .explore h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .explore-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .explore-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s;
+  }
+  
+  .explore-item img:hover {
+    transform: scale(1.05);
+  }
